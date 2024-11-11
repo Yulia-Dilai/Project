@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Ubuntu', sans-serif 
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* Section 1 */ 
+.quotes {
+    padding-top: 102px
+}
+
+.section_title {
+    font-weight: 700; 
+    font-size: 36px;
+    color: #648cff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 22px;
+}
+
+.section_text {
+    font-size: 18px;
+    color: #999999;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 117px;
+}
+
+.people1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 188px;
+}
+
+.people2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 147px;
+}
+
+.people_items {
+    width: 570px;
+    position: relative;
+}
+
+.people_items::after {
+    content: '"';
+    position: absolute;
+    top: -85px;
+    left: -15px;
+    font-size: 142px;
+    color: #648cff;
+    font-style: italic;
+}
+
+.people_items::before {
+    content: '"';
+    position: absolute;
+    bottom: -120px;
+    right: 15px;
+    font-size: 142px;
+    color: #648cff;
+    font-style: italic;
+}
+
+.people_items p{
+    font-size: 24px;
+    color: #353854;
+    padding-bottom: 24px;
+    text-align: justify;
+}
+
+.people_items h6{
+    font-size: 18px;
+    color: #b4b5bc;
+}
+
+
+/* Section 2 */ 
+.download{
+    background: url("../img/phone-image.png") no-repeat top center / cover;
+    padding-top: 127px;
+}
+
+.instruction h2{
+    font-weight: 700; 
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-bottom: 44px;
+}
+
+.instruction p{
+    max-width: 357px;
+    font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 24px;
+}
+
+.applications {
+    padding-bottom: 110px;
+}
+
+
+/* Footer */ 
+footer{
+    background-color: #353854;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 102px;
+    padding-bottom: 106px;
+    position: relative;
+}
+
+.menu h3{
+    font-weight: 700; 
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.menu p{
+    font-size: 18px;
+    color: #b5b5c8;
+}
+
+.menu p:hover{
+    color: #ffffff;
+}
+
+.menu i{
+    color: #b5b5c8;
+    font-size: 25px;
+}
+
+.menu i:hover{
+    color: #ffffff;
+}
+
+.menu::after {
+    content: '';
+    display: block;
+    width: 1370px; 
+    height: 1px; 
+    position: absolute;
+    background-color: #565b87; 
+    margin-top: 210px;
+    margin-left: -100px;
+    margin-right: -100px; 
+}
+
+.information{
+    font-size: 16px;
+    color: #565b87;
+    text-align: right;
+    padding-top: 52px;
+    padding-bottom: 70px;
+}
+
+.about_btn{
+    display: flex;               
+    justify-content: center;    
+    width: 40px;
+    height: 35px;
+    background: #434769;
+    color: #b5b5c8;
+    font-size: 35px;
+    position: fixed;  
+    right: 58px;      
+    bottom: 0;
+    border-top-left-radius: 5px;  
+    border-top-right-radius: 5px; 
+}
